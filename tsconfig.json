@@ -15,8 +15,8 @@
     "noFallbackThroughInCase": true,
     "module": "es2020",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
+    "resolveJsnModule": true,
+    "isolatedModules":true,
     "noEmit": true,
     "jpx": "react-jsx"
   },
