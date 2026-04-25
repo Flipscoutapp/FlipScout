@@ -1,0 +1,1 @@
+# FlipScout\n\nForce rebuild to clear Vercel cache.
