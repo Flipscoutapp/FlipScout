@@ -31,7 +31,7 @@ export interface ProfitAnalysis {
 }
 
 export interface ProfitSummary {
-  totalScanžed: number;
+  totalScanned: number;
   goodBuys: number;
   potentialProfit: number;
 }
@@ -49,7 +49,7 @@ export interface Performance {
   revenue: number;
   profit: number;
   itemsSold: number;
-  hotCategory: string;
+  hot Category: string;
 }
 
 export interface ListingDraft {
