@@ -1,23 +1,8 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# pytest cache directory #
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+This directory contains data from the pytest's cache plugin,
+which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
 
-# testing
-/coverage
+**Do not** commit this to version control.
 
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
