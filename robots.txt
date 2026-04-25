@@ -1,3 +1,0 @@
-{
-  "test_main.py::test_target_roi_low_threshold_more_good_buys": true
-}

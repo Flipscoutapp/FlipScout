@@ -1,7 +1,0 @@
-INFO:     Started server process [6490]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     2a06:98c0:360c:b8f:3323:a9:4337:5f04:0 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     2600:6c65:2400:1d:f48b:c8ed:e6e8:a23a:0 - "GET /api/profit-analysis?zip_code=01602&radius=25&category_id=abcat0502000&target_roi=50&store_discount=0 HTTP/1.1" 200 OK
-INFO:     2600:6c65:2400:1d:f48b:c8ed:e6e8:a23a:0 - "GET /api/stores?zip_code=01602&radius=25 HTTP/1.1" 200 OK
