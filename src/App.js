@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 
 const ALL_CATEGORIES = [
   { id: "all", name: "All Categories", emoji: "ğŸ”" },
@@ -22,51 +22,4 @@ export default function App() {
       const r = await fetch(`${apiUrl}/api/profit-analysis?zip_code=${zip}&category_id=${selectedCat}`);
       const d = await r.json();
       if (d.analyses) setAnalyses(d.analyses);
-    } catch (e) {
-      console.error("Fetch error: ", e);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  return (
-    <div style={{ backgroundColor: "#000", color: "#10b981", minHeight: "100vh", padding: "20px", fontFamily: "sans-serif" }}>
-      <h1 style={{ fontSize: "2.5rem", fontWeight: "900", margin: "0 0 10px 0" }}>FlipScout <span style={{color: "#fff"}}>Pro</span></h1>
-      <p style={{ color: "#666", marginBottom: "30px" }}>The Ultimate Arbitrage Scanner</p>
-      
-      <div style={{ display: "flex", gap: "10px", marginBottom: "30px" }}>
-        <input 
-          value={zip} 
-          onChange={(e) => setZip(e.target.value)}
-          placeholder="ZIP Code"
-          style={{ backgroundColor: "#111", border: "1px solid #333", color: "#fff", padding: "12px", borderRadius: "8px", flex: 1 }}
-        />
-        <select 
-          value={selectedCat} 
-          onChange={(e) => setSelectedCat(e.target.value)}
-          style={{ backgroundColor: "#111", border: "1px solid #333", color: "#fff", padding: "12px", borderRadius: "8px", flex: 1 }}
-        >
-          {all_categories.map(c => <option key={c.id} value={c.id}>{c.emoji} {c.name}</option>)}
-        </select>
-        <button 
-          onClick={handleSearch}
-          disabled={loading}
-          style={{ backgroundColor: "#10b981", color: "#000", padding: "12px 30px", borderRadius: "8px", border: "none", fontWeight: "bold", cursor: "pointer" }}
-        >
-          {loading ? "Scanning..." : "Scout"}
-        </button>
-      </div>
-
-      <div style={{ display: "grid", gap: "15px" }}>
-        {analyses.map(a => (
-          <div key={a.sku} style={{ backgroundColor: "#111", padding: "20px", borderRadius: "12px", border: "1px solid #10b98133" }}>
-            <h3 style={{ margin: "0 0 10px 0", color: "#fff" }}>{a.productName}</h3>
-            <div style={{ fontSize: "1.5rem", fontWeight: "bold" }}>+{fmt(a.recommendation?.bestProfit)}</div>
-            <div style={{ color: "#666", fontSize: "0.8rem" }}>ROI: {a.recommendation/.bestROI9}%</div>
-          </div>
-        ))}
-        {analyses.length === 0 && !loading && <p style={{ color: "#444", textAlign: "center", marginTop: "50px" }}>Ready to find deals? Enter ZIP & Categorig above.</p>}
-      </div>
-    </div>
-  );
-}
+    } catch (er‰ì¢W®º+yø§jYr±ëK¡¦F–ær†fÇ6R“²ÒÓ²&WGW&âƒÆF—b7G–ÆS×·¶&6¶w&÷VæD6öÆ÷#¢"3"Â6öÆ÷#¢"3#“ƒ"ÂÖ–ä†V–v‡C¢#f‚"ÂFF–æs¢##‚"ÂföçDfÖ–Ç“¢'6ç2×6W&–b'×ÓãÆF—b7G–ÆS×·¶Ö…v–GFƒ¢#c‚"ÂÖ&v–ã¢#WFò'×ÓãÆ†VFW"7G–ÆS×·¶Ö&v–ä&÷GFöÓ¢#C‚'×ÓãÆƒ7G–ÆS×·¶föçE6—¦S¢#7&VÒ"ÂföçEvV–v‡C¢#“"ÂÖ&v–ã£×ÓäfÆ—66÷WBÇ7â7G–ÆS×·¶6öÆ÷#¢"6ffb'×Óå&óÂ÷7ããÂöƒãÂö†VFW#ãÆF—b7G–ÆS×·¶&6¶w&÷VæD6öÆ÷#¢"3"ÂFF–æs¢##‚"Â&÷&FW%&F—W3¢##‚"ÂF—7Æ“¢&fÆW‚"Âv¢#‚'×ÓãÆ–çWBfÇVS×·¦—Òöä6†ævS×²†R“Óç6WE¦—†RçF&vWBçfÇVR—Ò7G–ÆS×·¶&6¶w&÷VæD6öÆ÷#¢"3"Â&÷&FW#¢#‚6öÆ–B3332"Â6öÆ÷#¢"6ffb"ÂFF–æs¢#'‚"Â&÷VæFVC¢#‚"ÂfÆWƒ£×ÒóãÆ'WGFöâöä6Æ–6³×²†æFÆU6V&6‡Ò7G–ÆS×·¶&6¶w&÷VæD6öÆ÷#¢"3#“ƒ"Â6öÆ÷#¢"3"ÂFF–æs¢#'‚3‚"Â&÷&FW%&F—W3¢#‡‚"Â&÷&FW#¢&æöæR"ÂföçEvV–v‡C¢&&öÆB'×Óå66÷WCÂö'WGFöããÂöF—cãÆF—b7G–ÆS×·¶Ö&v–åF÷¢#3‚"ÂF—7Æ“¢&w&–B"Âv¢#W‚'×Óç¶æÇ—6W2æÖ‚†’ÓâƒÆF—b¶W“×¶ç6·WÒ7G–ÆS×·¶&6¶w&÷VæD6öÆ÷#¢"3"ÂFF–æs¢##‚"Â&÷&FW%&F—W3¢#'‚"Â&÷&FW#¢#‚6öÆ–B3#“ƒ32'×ÓãÆƒ27G–ÆS×·¶6öÆ÷#¢"6ffb"ÂÖ&v–ã£×Óç¶ç&öGV7DæÖWÓÂöƒ3ãÆF—b7G–ÆS×·¶föçE6—¦S¢#ãW&VÒ"ÂföçEvV–v‡C¢&&öÆB"'×Óâ·¶f×B†ç&V6öÖÖVæFF–öãòæ&W7E&öf—B—ÓÂöF—cãÂöF—câ’—ÓÂöF—cãÂöF—cãÂöF—câ“²
