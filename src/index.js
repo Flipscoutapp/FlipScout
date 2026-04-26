@@ -1,1 +1,5 @@
-aW1wb3J0IFJlYWN0IGZyb20gInJlYWN0IjsKaW1wb3J0IFJlYWN0RE9NIGZyb20gInJlYWN0LWRvbS9jbGllbnQiOwppbXBvcnQgQXBwIGZyb20gIi4vQXBwIjsKCmNvbnN0IHJvb3QgPSBSZWFjdERPTS5jcmVhdGVSb290KGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJyb290IikpOwpyb290LnJlbmRlcig8QXBwIC8+KTsK
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
