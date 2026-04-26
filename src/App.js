@@ -1,1 +1,49 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwoKY29uc3QgQUxMX0NBVEVHT1JJRVMgPSBbCiAgeyBpZDogImFsbCIsIG5hbWU6ICJBbGwgQ2F0ZWdvcmllcyIsIGVtb2ppOiAi8J+UjSIgfSwKICB7IGlkOiAiYWJjYXQwNTAyMDAwIiwgbmFtZTogIkxhcHRvcHMiLCBlbW9qaTogIvCfkrsiIH0KXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFwcCgpIHsKICBjb25zdCBbemlwLCBzZXRaaXBdID0gdXNlU3RhdGUoIjAxNjAyIik7CiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFthbmFseXNlcywgc2V0QW5hbHlzZXNdID0gdXNlU3RhdGUoW10pOwoKICBjb25zdCBoYW5kbGVTZWFyY2ggPSBhc3luYyAoKSA9PiB7CiAgICBzZXRMb2FkaW5nKHRydWUpOwogICAgdHJ5IHsKICAgICAgY29uc3QgYXBpVXJsID0gImh0dHBzOi8vZmxpcHNjb3V0Lm9ucmVuZGVyLmNvbSI7CiAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2goYCR7YXBpVXJsfS9hcGkvcHJvZml0LWFuYWx5c2lzP3ppcF9jb2RlPSR7emlwfSZjYXRlZ29yeV9pZD1hbGxgKTsKICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsKICAgICAgaWYgKGRhdGEuYW5hbHlzZXMpIHNldEFuYWx5c2VzKGRhdGEuYW5hbHlzZXMpOwogICAgfSBjYXRjaCAoZSkgeyBjb25zb2xlLmVycm9yKGUpOyB9CiAgICBmaW5hbGx5IHsgc2V0TG9hZGluZyhmYWxzZSk7IH0KICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBzdHlsZT17eyBiYWNrZ3JvdW5kQ29sb3I6ICIjMDAwIiwgY29sb3I6ICIjMTBiOTgxIiwgbWluSGVpZ2h0OiAiMTAwdmgiLCBwYWRkaW5nOiAiNDBweCIsIGZvbnRGYW1pbHk6ICJzYW5zLXNlcmlmIiB9fT4KICAgICAgPGgxIHN0eWxlPXt7IGZvbnRTaXplOiAiM3JlbSIsIGZvbnRXZWlnaHQ6ICI5MDAiIH19PkZsaXBTY291dCA8c3BhbiBzdHlsZT17e2NvbG9yOiIjZmZmIn19PlBybzwvc3Bhbj48L2gxPgogICAgICA8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICJmbGV4IiwgZ2FwOiAiMTBweCIsIG1hcmdpbjogIjIwcHggMCIgfX0+CiAgICAgICAgPGlucHV0IHZhbHVlPXt6aXB9IG9uQ2hhbmdlPXtlID0+IHNldFppcChlLnRhcmdldC52YWx1ZSl9IHN0eWxlPXt7IHBhZGRpbmc6ICIxMHB4IiwgYmFja2dyb3VuZDogIiMxMTEiLCBjb2xvcjogIiNmZmYiLCBib3JkZXI6ICIxcHggc29saWQgIzMzMyIsIGJvcmRlclJhZGl1czogIjVweCIgfX0gLz4KICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e2hhbmRsZVNlYXJjaH0gc3R5bGU9e3sgcGFkZGluZzogIjEwcHggMjBweCIsIGJhY2tncm91bmQ6ICIjMTBiOTgxIiwgY29sb3I6ICIjMDAwIiwgYm9yZGVyOiAibm9uZSIsIGJvcmRlclJhZGl1czogIjVweCIsIGN1cnNvcjogInBvaW50ZXIiLCBmb250V2VpZ2h0OiAiYm9sZCIgfX0+CiAgICAgICAgICB7bG9hZGluZyA/ICJTY2FubmluZy4uLiIgOiAiU2NvdXQifQogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBzdHlsZT17eyBkaXNwbGF5OiAiZ3JpZCIsIGdhcDogIjIwcHgiIH19PgogICAgICAgIHthbmFseXNlcy5tYXAoYSA9PiAoCiAgICAgICAgICA8ZGl2IGtleT17YS5za3V9IHN0eWxlPXt7IHBhZGRpbmc6ICIyMHB4IiwgYm9yZGVyOiAiMXB4IHNvbGlkICMxMGI5ODEzMyIsIGJhY2tncm91bmQ6ICIjMTExIiwgYm9yZGVyUmFkaXVzOiAiMTBweCIgfX0+CiAgICAgICAgICAgIDxoMyBzdHlsZT17eyBjb2xvcjogIiNmZmYiLCBtYXJnaW46IDAgfX0+e2EucHJvZHVjdE5hbWV9PC9oMz4KICAgICAgICAgICAgPHAgc3R5bGU9e3sgZm9udFNpemU6ICIxLjVyZW0iIH19PiskeyhhLnJlY29tbWVuZGF0aW9uPy5iZXN0UHJvZml0IHx8IDApLnRvRml4ZWQoMil9PC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSl9CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+import React, { useState } from "react";
+
+const ALL_CATEGORIES = [
+  { id: "all", name: "All Categories", emoji: "🔍" },
+  { id: "abcat0502000", name: "Laptops", emoji: "💻" },
+  { id: "abcat0101000", name: "TRs", emoji: "🔊" },
+  { id: "pcmcat209400050001", name: "Headphones", emoji: "🎧" }
+];
+
+export default function App() {
+  const [zip, setZip] = useState("01602");
+  const [selectedCat, setSelectedCat] = useState("all");
+  const [loading, setLoading] = useState(false);
+  const [analyses, setAnalyses] = useState([]);
+
+  const handleSearch = async () => {
+    setLoading(true);
+    try {
+      const ApiUrl = "https://flipscout.onrender.com";
+      const response = await fetch(`${ApiUrl}/api/profit-analysis?zip_code=${zip}&category_id=${selectedCat}`);
+      const data = await response.json();
+      if (data.analyses) setAnalyses(data.analyses);
+    } catch (error) {
+      console.error(error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div style={{ backgroundColor: "#000", color: "#10b981", minHeight: "100vh", padding: "40px", fontFamily: "sans-serif" }}>
+      <h1 style={{ fontSize: "3rem", fontWeight: "900" }}>FlipScout <span style={{color:"#fff"}}>Pro</span></h1>
+      <div style={{ display: "flex", gap: "10px", margin: "20px 0" }}>
+        <input value={zip} onChange={e => setZip(e.target.value)} style={{ padding: "10px", background: "#111", color: "#fff", border: "1px solid #333", borderRadius: "5px" }} />
+        <button onClick={handleSearch} style={{ padding: "10px 20px", background: "#10b981", color: "#000", border: "none", borderRadius: "5px", cursor: "pointer", fontWeight: "bold" }}>
+          {loading ? "Scanning..." : "Scout Deals"}
+        </button>
+      </div>
+      <div style={{ display: "grid", gap: "20px" }}>
+        {analyses.map(a => (
+          <div key={a.sku} style={{ padding: "20px", border: "1px solid #10b98133", borderRadius: "10px", background: "#111" }}>
+            <h3 style={{ color: "#fff" }}>{a.productName}</h3>
+            <p style={{ fontSize: "1.5rem" }}>+${(a.recommendation/.bestProfit || 0).toFixed(2)} Profit</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
++}
